@@ -19,7 +19,7 @@ class View2JsonServiceProvider extends ServiceProvider
             __DIR__ . '/config/view2json.php' => config_path('view2json.php'),
         ], 'view2json');
 
-        $router->pupushMiddlewareToGroup('web', View2JsonMiddleware::class);
+        $router->pushMiddlewareToGroup('web', View2JsonMiddleware::class);
     }
 
     /**
