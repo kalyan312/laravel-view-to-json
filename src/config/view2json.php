@@ -31,12 +31,13 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Header Token
+    | Header Token | view2json
     |--------------------------------------------------------------------------
     |
     | This token with be verify for every request
     | if it miss match with provided header data will be restricted.
     | If `view2json_header_token` is empty then the security check will be disabled.
+    | Please inject header with key `view2json` = `header_token value`
     |
     */
 
