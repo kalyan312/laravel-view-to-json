@@ -1,0 +1,33 @@
+{
+  "name": "khbd/laravel-view-to-json",
+  "description": "Laravel view to json with automatically convert view to json. This api help you to build API. Laravel view to json is very simple configurable.",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "php": "^7.2"
+  },
+  "authors": [
+    {
+      "name": "Kalyan Halder",
+      "email": "kalyanhalder0@gmail.com",
+      "homepage": "https://github.com/kalyan312",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Khbd\\view2json\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Khbd\\view2json\\View2JsonServiceProvider"
+      ]
+    }
+  }
+}

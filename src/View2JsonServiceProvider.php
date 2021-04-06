@@ -16,7 +16,7 @@ class View2JsonServiceProvider extends ServiceProvider
     public function boot(Router $router)
     {
         $this->publishes([
-            __DIR__.'/config/view2json.php' => config_path('view2json.php'),
+            __DIR__ . '/config/view2json.php' => config_path('view2json.php'),
         ], 'view2json');
 
         $router->pupushMiddlewareToGroup('web', View2JsonMiddleware::class);
@@ -30,7 +30,7 @@ class View2JsonServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/config/view2json.php',
+            __DIR__ . '/config/view2json.php',
             'view2json'
         );
     }
