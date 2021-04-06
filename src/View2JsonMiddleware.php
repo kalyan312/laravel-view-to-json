@@ -1,6 +1,6 @@
 <?php
 
-namespace Khbd\view2json;
+namespace Khbd\View2json;
 
 use Closure;
 use Illuminate\Http\JsonResponse;

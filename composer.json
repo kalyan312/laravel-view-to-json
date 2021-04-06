@@ -17,7 +17,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Khbd\\view2json\\": "src/"
+      "Khbd\\View2json\\": "src/"
     },
     "files": [
       "src/helpers.php"
@@ -26,7 +26,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Khbd\\view2json\\View2JsonServiceProvider"
+        "Khbd\\View2json\\View2JsonServiceProvider"
       ]
     }
   }
